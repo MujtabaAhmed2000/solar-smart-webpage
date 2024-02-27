@@ -37,6 +37,9 @@ const Footer = () => {
       <a className="text-center text-background" href="tel:+14374242127">
         (437) 424-2127
       </a>
+      <a className="text-center text-background" href="tel:+14374242127">
+        support@solarsmart.ca
+      </a>
     </footer>
   );
 };

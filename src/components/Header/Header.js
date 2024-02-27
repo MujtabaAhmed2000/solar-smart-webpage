@@ -45,7 +45,7 @@ const Header = () => {
       className={
         [
           scrollPosition > 10
-            ? "border-b-secondary-100 bg-background"
+            ? "border-b-primary/10 bg-background"
             : "border-b-transparent bg-transparent",
         ] +
         [" fixed left-0 top-0 z-50 flex h-20 w-screen border-b-2 duration-300"]
