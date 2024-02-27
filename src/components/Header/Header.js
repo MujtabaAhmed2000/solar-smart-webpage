@@ -20,10 +20,10 @@ const Header = () => {
     };
   }, []);
 
-  const Links = ({ children }) => {
+  const Links = ({ children, link }) => {
     return (
       <Link
-        href={"/"}
+        href={link}
         className={
           [
             scrollPosition > 10
@@ -63,8 +63,9 @@ const Header = () => {
           <HeaderMenu scrollPosition={scrollPosition} />
         </div>
         <div className="hidden space-x-8 lg:flex">
-          <Links>Home</Links>
-          <Links>Contact</Links>
+          <Links link={"/"}>Home</Links>
+          <Links link={"/#why-solar-smart"}>Why SolarSmart</Links>
+          <Links link={"/#contact-us"}>Contact Us</Links>
         </div>
       </div>
     </header>

@@ -5,10 +5,10 @@ import FacebookIcon from "../Icons/FacebookIcon";
 import TwitterIcon from "../Icons/TwitterIcon";
 
 const Footer = () => {
-  const Links = ({ children }) => {
+  const Links = ({ children, link }) => {
     return (
       <Link
-        href={"/"}
+        href={link}
         className="rounded-md px-3 py-2 text-xs font-medium text-primary duration-200 hover:bg-primary hover:text-white"
       >
         {children}
@@ -25,9 +25,9 @@ const Footer = () => {
         <TwitterIcon />
       </div>
       <div className="space-x-4">
-        <Links>Home</Links>
-        <Links>Why SolarSmart</Links>
-        <Links>Contact</Links>
+        <Links link={"/"}>Home</Links>
+        <Links link={"/#why-solar-smart"}>Why SolarSmart</Links>
+        <Links link={"/#contact-us"}>Contact Us</Links>
       </div>
       <Link href={"https://maps.app.goo.gl/2F323oMXbSi5RN3UA"} target="_blank">
         <address className="text-center text-background">

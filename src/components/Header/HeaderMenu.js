@@ -4,10 +4,10 @@ import { useState } from "react";
 const HeaderMenu = ({ scrollPosition }) => {
   const [isShow, setIsShow] = useState(false);
 
-  const Links = ({ children, href }) => {
+  const Links = ({ children, link }) => {
     return (
       <Link
-        href={href}
+        href={link}
         onClick={() => {
           setIsShow(false);
         }}
@@ -33,12 +33,9 @@ const HeaderMenu = ({ scrollPosition }) => {
             </span>
           </button>
           <menu className="mx-10 flex w-full flex-col space-y-5 pt-20">
-            <Links href={"/"}>Home</Links>
-            <Links href={"/"}>Why SolarSmart</Links>
-            {/* <Links href={"/our-services"}>Our Services</Links>
-            <Links href={"/project-gallery"}>Project Gallery</Links>
-            <Links href={"/about-us"}>About Us</Links> */}
-            <Links href={"/"}>Contact Us</Links>
+            <Links link={"/"}>Home</Links>
+            <Links link={"/#why-solar-smart"}>Why SolarSmart</Links>
+            <Links link={"/#contact-us"}>Contact Us</Links>
           </menu>
         </div>
       )}

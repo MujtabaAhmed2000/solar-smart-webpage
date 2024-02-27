@@ -25,7 +25,7 @@ const HowItWorks = () => {
   };
 
   return (
-    <section>
+    <section id="why-solar-smart">
       <h3 className="pb-10 text-center text-5xl font-bold text-secondary">
         Why SolarSmart?
       </h3>

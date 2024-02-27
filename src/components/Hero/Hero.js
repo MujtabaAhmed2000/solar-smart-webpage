@@ -15,7 +15,7 @@ const Hero = () => {
         </h2>
         <Link
           className="w-full animate-moreDelayFloatUp rounded-lg bg-primary px-4 py-4 text-center text-xl font-bold text-background shadow-xl md:text-2xl"
-          href={"/"}
+          href={"/#contact-us"}
         >
           Join the Future Today!
         </Link>
