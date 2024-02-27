@@ -19,7 +19,7 @@ const HowItWorks = () => {
   return (
     <section className="container-width flex flex-col gap-12 lg:grid lg:grid-cols-2 lg:gap-6">
       <Section heading="Renewable Energy Focus">
-        Contribute to a greener future with SolarSmart's accurate energy
+        Contribute to a greener future with SolarSmart&apos;s accurate energy
         insights, supporting sustainability goals.
       </Section>
       <Section heading="Technological Innovation">
@@ -27,7 +27,7 @@ const HowItWorks = () => {
         SolarSmart, optimizing PV farm efficiency.
       </Section>
       <Section heading="Efficiency Improvement">
-        Enhance PV panel farm performance with SolarSmart's meticulous
+        Enhance PV panel farm performance with SolarSmart&apos;s meticulous
         monitoring, ensuring longevity and uninterrupted energy production.
       </Section>
       <Section heading="Data-Driven Decision Making">
@@ -47,9 +47,9 @@ const HowItWorks = () => {
         various industries, offering global energy consumption insights.
       </Section>
       <Section heading="Predictive Maintenance">
-        Bid farewell to breakdowns. SolarSmart's smart algorithms predict panel
-        issues, enabling proactive maintenance for a smooth, cost-effective,
-        sustainable energy future.
+        Bid farewell to breakdowns. SolarSmart&apos;s smart algorithms predict
+        panel issues, enabling proactive maintenance for a smooth,
+        cost-effective, sustainable energy future.
       </Section>
     </section>
   );
