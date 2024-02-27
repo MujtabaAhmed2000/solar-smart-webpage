@@ -20,15 +20,17 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Deenar - Start Saving",
-  description: "Gold investment app to start saving for a better future",
+  title:
+    "SolarSmart - Redefining PV panel farms energy tracking and predictions",
+  description:
+    "We provide software solutions for tracking energy production and forecasting future production using machine learning algorithms for PV panel farms.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${inter.variable} text-secondary-900 font-inter flex min-h-screen w-screen flex-col overflow-x-hidden`}
+        className={`${poppins.variable} ${inter.variable} flex min-h-screen w-screen flex-col overflow-x-hidden font-inter text-secondary-900`}
       >
         <Header />
         <main className="mt-20">{children}</main>

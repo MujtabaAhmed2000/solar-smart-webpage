@@ -1,8 +1,8 @@
-import Link from "next/link"
-import SnapchatIcon from "../Icons/SnapchatIcon"
-import InstagramIcon from "../Icons/InstagramIcon"
-import FacebookIcon from "../Icons/FacebookIcon"
-import TwitterIcon from "../Icons/TwitterIcon"
+import Link from "next/link";
+import SnapchatIcon from "../Icons/SnapchatIcon";
+import InstagramIcon from "../Icons/InstagramIcon";
+import FacebookIcon from "../Icons/FacebookIcon";
+import TwitterIcon from "../Icons/TwitterIcon";
 
 const Footer = () => {
   const Links = ({ children }) => {
@@ -13,8 +13,8 @@ const Footer = () => {
       >
         {children}
       </Link>
-    )
-  }
+    );
+  };
 
   return (
     <footer className="flex w-screen flex-col items-center justify-center space-y-2 bg-black/80 px-4 pb-6 pt-12 lg:px-14">
@@ -26,19 +26,19 @@ const Footer = () => {
       </div>
       <div className="space-x-4">
         <Links>Home</Links>
-        <Links>How It Works</Links>
+        <Links>Why SolarSmart</Links>
         <Links>Contact</Links>
       </div>
-      <Link href={"https://maps.app.goo.gl/rFVLHVJSs6rR8ma17"} target="_blank">
+      <Link href={"https://maps.app.goo.gl/2F323oMXbSi5RN3UA"} target="_blank">
         <address className="text-center text-background">
-          1591 South Parade Court, Mississauga, ON L5M 6G1
+          8 The Seneca Way, Markham, ON L3R 5Y1
         </address>
       </Link>
       <a className="text-center text-background" href="tel:+14374242127">
         (437) 424-2127
       </a>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
