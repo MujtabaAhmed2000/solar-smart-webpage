@@ -57,7 +57,7 @@ const ContactUsForm = () => {
       <h3 className="pb-10 text-center text-5xl font-bold text-secondary">
         Help us optimize and take care of your solar goals
       </h3>
-      <form className="flex flex-col items-center justify-center space-y-4">
+      <form className="flex flex-col items-center justify-center space-y-4 p-4">
         <InputTextField
           onChange={setName}
           value={name}
